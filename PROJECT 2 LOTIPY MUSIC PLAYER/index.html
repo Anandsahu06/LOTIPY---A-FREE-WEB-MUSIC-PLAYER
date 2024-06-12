@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotipy - A Free Web Player For Listening Songs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey m-1 rounded .p-1">
+                <div class="logo"><img class="invert " src="logo.svg" alt="" height="30px"></div>
+                <ul>
+                    <li class="homer"><img class="invert"  src="home.svg" alt="Home">Home</li>
+                    <li class="sear"><img class="invert pad" src="search.svg" alt="Search">Search
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 rounded .p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2 class="lib">
+                        Your&nbsp;Library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                      
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy&nbsp;Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy&nbsp;Policy</span></a>
+                    </div>
+
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About&nbsp;Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right   rounded .p-1" style="
+        margin: 7px 0;">
+            <div class="header">
+                <div class="nav">
+                    
+                    <div class="hamburgerContainer">
+
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <svg width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sign">Sign up</button>
+                    <button class="login">Log in</button>
+
+                </div>
+            </div>
+            <div class="artist">
+                <div class="cards">
+                    <h1 class="pop">Popular Songs of Popular artists</h1>
+                    <div class="cardContainer">
+                        <div data-folder="badshaah" class="card border">
+                            <div  class="play1"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <img class="bad" src="badshah.png" alt="" height="250px">
+                            <h2 class="shah">Badshah</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div data-folder="Arjitsingh" class="card border">
+                            <div  class="play2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <img class="bad" src="arjit.jpg" alt="" height="250px">
+                            <h2 class="shah">Arijit Singh</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div data-folder="arrhaman" class="card border">
+                            <div class="play3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <img class="bad" src="rahman.jpg" alt="" height="250px">
+                            <h2 class="shah">A.R Rahman</h2>
+                            <p>Artist</p>
+                        </div>
+                        <div data-folder="darshan" class="card border">
+                            <div class="play4"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                </svg></div>
+                            <img class="bad" src="darshan.jpg" alt="" height="250px">
+                            <h2 class="shah">Darshan Raval</h2>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="album">
+                        <h1 class="albumm">Popular Songs of Popular albums</h1>
+                        <div class="albumcontainer">
+                            <div data-folder="animal" class="albu album border">
+                                <div class="play5"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://m.media-amazon.com/images/I/91zTlD7AY1L._AC_UF1000,1000_QL80_.jpg"
+                                    alt="" height="280px" width="230px">
+                                <h2 class="sha">ANIMAL</h2>
+                                <p class="ani">Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                            </div>
+                            <div data-folder="moosetape" class="albu album border">
+                                <div class="play6"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Moosetape.jpg" alt=""
+                                    height="280px" width="230px">
+                                <h2 class="sha">Moosetape</h2>
+                                <p class="ani">Sidhu Moose Wala</p>
+                            </div>
+                            <div data-folder="shubh" class=" albu album border">
+                                <div class="play7"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://i1.sndcdn.com/artworks-KsQJuzBDxvYc-0-t500x500.jpg" alt=""
+                                    height="280px" width="230px">
+                                <h2 class="sha">Still Rollin</h2>
+                                <p class="ani">Shubh</p>
+                            </div>
+                            <div data-folder="yejawani" class=" albu album border">
+                                <div class="play8"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://m.media-amazon.com/images/M/MV5BODA4MjM2ODk4OF5BMl5BanBnXkFtZTcwNDgzODk1OQ@@._V1_FMjpg_UX1000_.jpg"
+                                    alt="" height="280px" width="230px">
+                                <h2 class="sha">Yeh Jawaani Hai...</h2>
+                                <p class="ani">Pritam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="album">
+                        <h1 class="albumm phonk">Popular Phonk</h1>
+                        <div class="albumcontainer">
+                            <div data-folder="phonk1" class=" albu album border">
+                                <div class="play9"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://source.boomplaymusic.com/group10/M00/12/11/65408b392cf848b1a0eabe35de3d14ff_464_464.jpg"
+                                    alt="" height="280px" width="230px">
+                                <h2 class="sha">Trending Phonk</h2>
+                                <p class="ani">By Lotipy</p>
+                            </div>
+                            <div data-folder="phonk2" class=" albu album border">
+                                <div class="play10"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d4/7b/91/d47b917c-d050-4edd-676a-bc52043bad75/8447181357516.jpg/400x400bb.webp"
+                                    alt="" height="280px" width="230px">
+                                <h2 class="sha">Phonk Gym</h2>
+                                <p class="ani">By Saksham</p>
+                            </div>
+                            <div data-folder="phonk3" class=" albu album border">
+                                <div class="play11"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://m.media-amazon.com/images/I/41wTxDJSfNL._UXNaN_FMjpg_QL85_.jpg" alt=""
+                                    height="280px" width="230px">
+                                <h2 class="sha">Dark phonk</h2>
+                                <p class="ani">By Anand</p>
+                            </div>
+                            <div data-folder="phonk4" class=" albu album border">
+                                <div class="play12"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                            stroke-linejoin="round" />
+                                    </svg></div>
+                                <img src="https://yt3.googleusercontent.com/5nhjkTZFabmAX5cwoWn3npQ7zO5HYmT0WufN7D0ndtcyDDqT9pWBBEW2n1JdfAUmqIymATNe=s900-c-k-c0x00ffffff-no-rj"
+                                    alt="" height="280px" width="230px">
+                                <h2 class="sha">Phonk Devil 2024</h2>
+                                <p class="ani">By Lotipy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img width="30" id="prev" src="prevsong.svg"
+                                alt="">&nbsp;&nbsp;&nbsp;&nbsp;<img width="30" id="play" src="play.svg"
+                                alt="">&nbsp;&nbsp;&nbsp;<img width="30" id="next" src="nextsong.svg" alt="">
+                        </div>
+                        <div class="volume">
+                        <div class="songtime"></div>
+                        <div class="vol">
+                            &nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                            <img class="voll" src="volume.svg" alt="">
+                            <div class="range">
+                                <input  type="range" name="volum" id="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

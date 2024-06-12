@@ -1,0 +1,116 @@
+/* .border {
+    border: none;
+    background-color: #191919;
+    border-radius: 20px;
+margin-right: 975px;
+margin-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+} */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    margin-left: 23px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+
+}
+
+.rounded {
+    border-radius: 7px;
+
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 19px;
+}
+
+.pop {
+    padding: 30px;
+   
+
+}
+
+.bad {
+    margin-left: 25px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 40px #101010;
+}
+
+.album {
+    padding: 30px;
+    margin-left: -13px;
+}
+
+.ani {
+    margin-left: -1px;
+}
+
+.ani:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sha {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: -1px;
+}
+
+.sha:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pop:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
+  /* For Firefox */
+  scrollbar-color: #333 #222; /* Dark color for the thumb and track in Firefox */
+  
